@@ -5,7 +5,7 @@ const numberOfMatches = (n) => {
   let reverse = 0;
   while(n > 1){
     reverse = Math.floor(n/2);
-    count++;
+    count += reverse;
     n = n - reverse
   }
   
